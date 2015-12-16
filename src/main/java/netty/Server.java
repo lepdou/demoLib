@@ -3,6 +3,7 @@ package netty;
 import com.caucho.hessian.io.HessianInput;
 import org.jboss.netty.bootstrap.ServerBootstrap;
 import org.jboss.netty.buffer.ChannelBuffer;
+import org.jboss.netty.channel.*;
 import org.jboss.netty.channel.socket.nio.NioServerSocketChannelFactory;
 
 import java.io.ByteArrayInputStream;
